@@ -24,7 +24,7 @@ public class SignUp_UITestCases extends BaseClass{
 		
 		
 	homepage
-		//.WaitForHomePageToLoad()
+		.WaitForHomePageToLoad()
 		.ClickSignIn();
 		
 	signpage
@@ -52,38 +52,38 @@ public class SignUp_UITestCases extends BaseClass{
 	    
 	
 	homepage
-	//.WaitForHomePageToLoad()
-	.NavigateToOrderPage("Order");
+	    .WaitForHomePageToLoad()
+	    .NavigateToOrderPage("Order");
 	
 	orderpage
-	.InsertFirstName("subhashree")
-	.InsertLastName("Nayak")
-	.InsertEmailAddres("subhashree@gmail.com")
-    .InsertPassword("avcd@1234")
-    .InsertMobileNumber("132451222")
-    .InsertAddress1("sc-27")
-    .InsertAddress2("sec-22")
-    .InsertCity("Bengalore")
-    .SelectState("Karnataka")
-    .InsertZipCode("6372634")
-    .SelectBrand("Samsung")
-    .InsertCount("2")
-    .SelectBoughtAlready("Yes")
-    .InsertNumberOfTimes("2")
-    .SelectIfYourAddressIsCorrect()
-    .SelectIfYourMobileNumberIsCorrect()
-    .ClickOrderNow()
-    .ClickClosePopUp()
-    .NavigateToContactUsPage();
+	    .InsertFirstName("subhashree")
+	    .InsertLastName("Nayak")
+	    .InsertEmailAddres("subhashree@gmail.com")
+            .InsertPassword("avcd@1234")
+            .InsertMobileNumber("132451222")
+            .InsertAddress1("sc-27")
+            .InsertAddress2("sec-22")
+            .InsertCity("Bengalore")
+            .SelectState("Karnataka")
+            .InsertZipCode("6372634")
+            .SelectBrand("Samsung")
+            .InsertCount("2")
+            .SelectBoughtAlready("Yes")
+            .InsertNumberOfTimes("2")
+            .SelectIfYourAddressIsCorrect()
+            .SelectIfYourMobileNumberIsCorrect()
+            .ClickOrderNow()
+            .ClickClosePopUp()
+            .NavigateToContactUsPage();
    
 	
 	contactuspage
-	.WaitForContactUsPageToLoad()
-	.InsertUserName("Subhashree Nayak")
-	.InsertEmailAddress("subhashree480@gmail.com")
-	.InsertPhoneNumber("6892738763")
-	.InsertMessageBox("Hii I am subhashree Nayak")
-	.ClickSendButton();
+	    .WaitForContactUsPageToLoad()
+	    .InsertUserName("Subhashree Nayak")
+	    .InsertEmailAddress("subhashree480@gmail.com")
+	    .InsertPhoneNumber("6892738763")
+	    .InsertMessageBox("Hii I am subhashree Nayak")
+	    .ClickSendButton();
 	
 	
 	
