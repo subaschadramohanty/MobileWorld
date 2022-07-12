@@ -10,7 +10,7 @@ import Utilities.BaseClass;
 
 public class HomePage extends CommunMethods  
 {
-	@FindBy(xpath="//*[@id=\"navbarSupportedContent\"]/ul/li[1]/a[text()='Home ']")
+	@FindBy(xpath="//*[@id='navbarSupportedContent']/ul/li[1]/a[text()='Home ']")
 	   private WebElement home_Tab;
 	@FindBy(xpath="(//*[@id='navbarDropdown']/text())[1]")
 	private WebElement Latest_DropDown;
